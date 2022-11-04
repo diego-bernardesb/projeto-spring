@@ -10,6 +10,6 @@ public class teste {
 
     @GetMapping("/")
     public String hello(){
-        return "Hello, world!";
+        return "Hello, world!!";
     }
 }
