@@ -3,6 +3,8 @@ package br.com.estoque.model;
 import lombok.Data;
 
 import javax.persistence.*;
+import java.math.BigDecimal;
+import java.text.DecimalFormat;
 
 @Data
 @Entity
@@ -21,6 +23,6 @@ public class Product {
     @Column(nullable = false)
     private Long quantity;
 
-    @Column(nullable = false)
-    private Number price;
+//    @Column(nullable = false)
+//    private String price;
 }

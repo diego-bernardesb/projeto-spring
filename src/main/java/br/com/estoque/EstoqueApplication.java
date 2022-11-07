@@ -27,13 +27,13 @@ public class EstoqueApplication {
 			p.setName("Lapis");
 			p.setCategory("escritorio");
 			p.setQuantity(150L);
-			p.setPrice(1.50);
+//			p.setPrice("1,59");
 
 			Product p1 = new Product();
 			p1.setName("caneta");
 			p1.setCategory("escritorio");
 			p1.setQuantity(130L);
-			p1.setPrice(1.50);
+//			p1.setPrice("1,50");
 
 			List<Product> list = Arrays.asList(p,p1);
 			productRepository.saveAll(list);
